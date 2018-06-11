@@ -1,0 +1,18 @@
+{
+  "name": "react-native-keyboard-sticky-view",
+  "version": "1.0.1",
+  "description": "React Native Keyboard Sticky View",
+  "main": "index.js",
+  "keywords": [
+    "React",
+    "React-Native",
+    "Keyboard",
+    "Keyboard Listener",
+    "Sticky",
+    "Sticky View",
+    "Animation"
+  ],
+  "author": "Melih Berberoğlu <melihberberoglu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}
