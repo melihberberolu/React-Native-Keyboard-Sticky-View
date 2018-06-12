@@ -6,7 +6,7 @@ React Native keyboard sticky view with animation
 
 ```javascript
 import React from 'react';
-import { TouchableOpacity, StyleSheet, View, TextInput, Text } from 'react-native;
+import { TouchableOpacity, StyleSheet, View, TextInput, Text } from 'react-native';
 import KeyboardStickyView from 'react-native-keyboard-sticky-view';
 
 export default class KeyboardStickyViewExample extends React.Component {
