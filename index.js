@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
 import { Animated, Keyboard, Easing } from 'react-native';
 
 export default class KeyboardListener extends PureComponent {
@@ -66,4 +67,14 @@ export default class KeyboardListener extends PureComponent {
       </Animated.View>
     );
   }
+}
+
+KeyboardListener.defaultProps = {
+  onKeyboardShow: f => f,
+  onKeyboardHide: f => f,
+}
+
+KeyboardListener.propTypes = {
+  onKeyboardShow: PropTypes.func,
+  onKeyboardHide: PropTypes.func,
 }
