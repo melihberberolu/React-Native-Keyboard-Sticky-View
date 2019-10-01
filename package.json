@@ -14,5 +14,7 @@
   ],
   "author": "Melih Berberoğlu <melihberberoglu@gmail.com>",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
 }
